@@ -1,0 +1,17 @@
+{
+  "name": "chetanachar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "cypress:open":"cypress open",
+    "cy:run": "cypress run"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.4",
+    "init": "^0.1.2"
+  }
+}
