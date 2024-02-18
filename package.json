@@ -6,8 +6,8 @@
   "scripts": {
     "cypress:open":"cypress open",
     "cy:run": "cypress run",
-    "headed":"--headed --browser chrome",
-    "headless":" --browser chrome "
+    "headed":"npx cypress run --headed --browser chrome  --record --key 121bba0b-02e2-47dd-ac33-cc164272a04d",
+    "headless":" npx cypress run --spec cypress/integration/practice/*.js  --browser chrome --record --key 121bba0b-02e2-47dd-ac33-cc164272a04d"
 
   },
   "author": "",
