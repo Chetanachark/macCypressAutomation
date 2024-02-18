@@ -5,7 +5,9 @@
   "main": "test.js",
   "scripts": {
     "cypress:open":"cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "headed":"--headed --browser chrome",
+    "headless":" --browser chrome "
 
   },
   "author": "",
