@@ -14,7 +14,7 @@ describe('myFirst test suite',function()
     it('my first case', function()
     {
     const homePage = new HomePage()
-    cy.visit("https://rahulshettyacademy.com/angularpractice/")
+    cy.visit(this.data.url)
     homePage.getEditBox().type(this.data.name)
     homePage.getEmailbox().type(this.data.email)
     homePage.getPwdBox().type(this.data.pwd)
@@ -22,6 +22,8 @@ describe('myFirst test suite',function()
     homePage.getGender().select(this.data.gender)
     homePage.getDateBox().type(this.data.date)
     homePage.getSubmitbutton().click()
-    //homePage.getMessage()
+    homePage.getMessage()
     })
+
+    
 })
