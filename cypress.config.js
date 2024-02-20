@@ -27,3 +27,4 @@ module.exports = defineConfig({
     specPattern:"cypress/integration/practice/*.js"
   },
 });
+
