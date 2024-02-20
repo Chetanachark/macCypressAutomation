@@ -24,7 +24,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
     projectId: "gxz56d",
-    specPattern:"cypress/integration/practice/*.js"
+    specPattern:"cypress/integration/BDD/*.feature"
   },
 });
 
