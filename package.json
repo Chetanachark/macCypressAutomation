@@ -19,11 +19,11 @@
   "license": "ISC",
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "latest",
-    "cypress": "^13.6.4",
     "init": "^0.1.2"
   },
   "devDependencies": {
     "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.6.6",
     "multiple-cucumber-html-reporter": "^3.6.2"
   }
 }

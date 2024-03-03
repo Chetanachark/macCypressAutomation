@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Feature testing of Ecommerce",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerce-e2e-vaidation;ecommerce-product-delivery",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Ecommerce product delivery",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open Ecommerce page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 806000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Start to type your When step here I fill the form",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "should show success message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerce-e2e-vaidation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerce E2E vaidation",
+    "tags": [],
+    "uri": "cypress/integration/BDD/ecommerce.feature"
+  }
+]
