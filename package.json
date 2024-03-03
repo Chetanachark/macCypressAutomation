@@ -1,29 +1,26 @@
 {
-  "name": "chetanachar",
-  "version": "1.0.0",
-  "description": "",
-  "main": "test.js",
-  "scripts": {
-    "cypress:open": "cypress open",
-    "cy:run": "cypress run",
-    "headed": "npx cypress run --headed --browser chrome  --record --key 121bba0b-02e2-47dd-ac33-cc164272a04d",
-    "headless": " npx cypress run --spec cypress/integration/practice/*.js  --browser chrome --record --key 121bba0b-02e2-47dd-ac33-cc164272a04d"
-  },
-  "cypress-cucumber-preprocessor": {
-    "json": {
-      "enabled": true,
-      "output": "cypress/cucumberReports/results.json"
+    "name": "chetanachar",
+    "version": "1.0.0",
+    "description": "",
+    "main": "test.js",
+    "scripts": {
+        "cypress:open": "cypress open",
+        "cy:run": "cypress run",
+        "headed": "npx cypress run --headed --browser chrome  --record --key 121bba0b-02e2-47dd-ac33-cc164272a04d",
+        "headless": " npx cypress run --spec cypress/integration/practice/*.js  --browser chrome --record --key 121bba0b-02e2-47dd-ac33-cc164272a04d"
+    },
+    "cypress-cucumber-preprocessor": {
+        "json": {
+            "enabled": true,
+            "output": "cypress/cucumberReports/results.json"
+        }
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+        "@cypress/browserify-preprocessor": "^3.0.2",
+        "cypress": "^13.6.6",
+        "multiple-cucumber-html-reporter": "^3.6.2"
     }
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "latest",
-    "init": "^0.1.2"
-  },
-  "devDependencies": {
-    "@cypress/browserify-preprocessor": "^3.0.2",
-    "cypress": "^13.6.6",
-    "multiple-cucumber-html-reporter": "^3.6.2"
-  }
 }
