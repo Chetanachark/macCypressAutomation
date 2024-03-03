@@ -14,12 +14,7 @@
 const cypress = require("cypress");
 
 // Cypress.Commands.add('login', (email, password) => { ... })
-Cypress.Commands.add("loginAPI",()=>{
-    cy.request("POST","https://rahulshettyacademy.com/api/ecom/auth/login",{"userEmail":"chetanachar.k@gmail.com","userPassword":"Chetan@123"}).then(function(response){
-    expect(response.status).to.eq(200)
-    Cypress.env ('token',response.body.token);
-    })
-})
+//
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
