@@ -1,3 +1,4 @@
+//import cy from "cypress";
 import { Given,when,And,Then, When } from "@badeball/cypress-cucumber-preprocessor";
 //import { when } from "cypress/types/jquery";
 
@@ -9,7 +10,7 @@ before(function(){
     cy.fixture('example').then (function(data){
        this.data = data
     })
-})
+})  
 Given("I open Ecommerce page", () => { 
     cy.visit("https://rahulshettyacademy.com/angularpractice/")
 

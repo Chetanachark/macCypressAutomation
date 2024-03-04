@@ -11,7 +11,7 @@
 //
 // -- This is a parent command --
 
-const cypress = require("cypress");
+//const cypress = require("cypress");
 
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
