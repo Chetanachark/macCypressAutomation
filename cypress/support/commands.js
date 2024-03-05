@@ -13,7 +13,16 @@
 
 //const cypress = require("cypress");
 
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add("selectProducts", (productName) => {
+    cy.get(".card b").each(($el, index, $list) => {
+        let item = $el.text().trim()
+        if(item == productName){
+        cy.get(".btn.btn.w-10.rounded").eq(index).click()
+        }
+     })
+})
+
+//Cypress.Commands.add('products',)
 //
 //
 // -- This is a child command --

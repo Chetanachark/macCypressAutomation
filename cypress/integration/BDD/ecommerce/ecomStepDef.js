@@ -29,6 +29,7 @@ When("Start to type your When step here I fill the form",function(){
     homePage.getDateBox().type(this.data.date)
     homePage.getSubmitbutton().click()
 
+
 })
 // And ("click on submit", ()=> {
 //     cy.get(".btn").click()
