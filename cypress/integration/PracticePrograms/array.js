@@ -1,3 +1,4 @@
+//import { of } from "cli-table"
 
 
 // forEach() Method : Iterate through all the elements of an array
@@ -54,12 +55,13 @@ const targetString = inputString.split('')
 console.log(targetString)
 const targetEle ='l'
 let count =0;
-for(each in targetString){
+for( each of targetString){
     if(targetEle === each){
         count ++;
     }
-    console.log(count)
+    
 }
+console.log(count)
 
 // Create an object to store the count of each character
 const charCount = {};
